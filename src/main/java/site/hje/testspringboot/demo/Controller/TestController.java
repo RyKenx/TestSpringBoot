@@ -17,7 +17,7 @@ public class TestController {
     @RequestMapping("/test")
     public @ResponseBody String TestOut(@RequestBody SaveUserModel saveUserModel){
         List<String> stringList = new ArrayList<>();
-        stringList.add("asdas");
+        stringList.add("ass");
         //language=JSON
         String json = "{\"userName\": \"sd\"}";
         ModelUtile.setUserModel(saveUserModel);
